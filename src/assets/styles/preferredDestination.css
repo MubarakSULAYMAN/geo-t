@@ -1,0 +1,26 @@
+p {
+	/* margin-top: 10px; */
+	font-size: var(--font-md);
+	line-height: 1.5;
+}
+
+h3 {
+	color: var(--black);
+	font-size: var(--font-md);
+	font-weight: 700;
+}
+
+hr {
+	border: 0;
+	height: 0;
+}
+
+hr.dashed {
+	margin-top: 20px;
+	border-top: 1px dashed var(--gray-hr);
+}
+
+hr.stroke {
+	/* margin-top: 5px; */
+	border-top: 1px solid var(--gray-hr);
+}
